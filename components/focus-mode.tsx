@@ -63,7 +63,7 @@ export default function FocusMode({ task, onComplete, onExit }: FocusModeProps) 
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-900 to-purple-900 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-white-400 to-purple-400 flex items-center justify-center p-4">
       <Card className="w-full max-w-2xl">
         <CardHeader className="text-center">
           <div className="flex items-center justify-between mb-4">

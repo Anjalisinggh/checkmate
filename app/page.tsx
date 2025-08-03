@@ -254,34 +254,7 @@ export default function CheckMate() {
 
           <TabsContent value="settings">
             <div className="space-y-6">
-              <Card>
-                <CardHeader>
-                  <CardTitle>Settings</CardTitle>
-                  <CardDescription>Customize your CheckMate experience</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="space-y-4">
-                    <div className="flex items-center justify-between">
-                      <div>
-                        <h4 className="font-medium">Smart Notifications</h4>
-                        <p className="text-sm text-gray-600">Get reminded about tasks based on your context</p>
-                      </div>
-                      <Button variant="outline" size="sm">
-                        Coming Soon
-                      </Button>
-                    </div>
-                    <div className="flex items-center justify-between">
-                      <div>
-                        <h4 className="font-medium">Location Services</h4>
-                        <p className="text-sm text-gray-600">Auto-detect your location for better suggestions</p>
-                      </div>
-                      <Button variant="outline" size="sm">
-                        Coming Soon
-                      </Button>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+             
 
               <DataExport tasks={tasks} />
             </div>
